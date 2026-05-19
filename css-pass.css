@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(25, 25, 25);
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.first-line {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 32px; 
+    margin: 10px;
+}
+
+.second-line {
+    color: rgb(14, 167, 16);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 26px; 
+    margin: 10px; 
+}
+
+.line3 {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    margin: 10px;
+}
+.generator {
+    border-style: solid;
+    border-width: 3px; 
+    border-color: white;
+    border-radius: 10px;
+    width: 100%;       
+    max-width: 700px;  
+    box-sizing: border-box;
+    padding: 30px 15px;
+    height:700px;
+}
+
+.generate {
+    margin-top: 30px;
+    width: 230px; 
+    height: 60px;
+    background-color: rgb(11, 98, 12);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10px; 
+    margin-bottom:50px;
+}
+.passwords {
+    display: flex;
+    flex-direction: column; 
+    gap: 50px;
+}
+
+.password {
+    margin: 5px 10px;
+    font-size: 18px; 
+    border-style: none;  
+    border-radius: 10px;
+    background-color: grey;
+    color: black; 
+    padding: 10px 20px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .first-line {
+        font-size: 50px;
+        margin: 10px;
+    }
+    
+    .second-line {
+        font-size: 40px;
+        margin: 10px; 
+    }
+    .line3 {
+        font-size: 20px;
+        margin: 10px;
+    }
+    .generator {
+        width: 700px; 
+        height: 500px;
+        padding: 40px 20px;
+    }
+    
+    .generate {
+        margin-top: 50px;
+        width: 150px; 
+        margin-left: 40px;
+        margin-bottom:0 ;
+        margin-top:30px;
+        margin-bottom:20px;
+    }
+    .passwords {
+        flex-direction: row;
+        width:fit-content;
+    }
+    
+    .password {
+        margin: 10px;
+        font-size: 25px;
+    }
+}
